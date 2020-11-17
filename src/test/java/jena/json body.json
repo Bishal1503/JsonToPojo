@@ -1,0 +1,78 @@
+{
+    "env": "QA1",
+
+    "type": "SmokeTest",
+
+    "group": "Core",
+
+    "cluster": "GVC",
+
+    "timeStamp": "2020-11-02 12:57:2",
+
+    "scenarios": [{
+            "name": "Registration",
+
+            "status": "fail",
+
+            "childServices": [{
+                    "name": "createRegisterAccount",
+
+                    "error": "null",
+
+                    "status": "pass"
+
+                }, {
+                    "name": "getSecurityPrefsStatus",
+
+                    "error": "null",
+
+                    "status": "fail"
+
+                }, {
+
+                    "name": "getUserRegistrationStatus",
+
+                    "error": "null",
+
+                    "status": "pass"
+
+                }
+
+            ]
+
+        }, {
+            "name": "Registration",
+
+            "status": "fail",
+
+            "childServices": [{
+                    "name": "logout",
+
+                    "error": "null",
+
+                    "status": "pass"
+
+                }, {
+                    "name": "login",
+
+                    "error": "java.lang.AssertionError: Mismatch in user text expected [Welcome User3] but found [Welcome User1]",
+
+                    "status": "fail"
+
+                }, {
+
+                    "name": "checkEmail",
+
+                    "error": "null",
+
+                    "status": "pass"
+
+                }
+
+            ]
+
+        }
+
+    ]
+
+}

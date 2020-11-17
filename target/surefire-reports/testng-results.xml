@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="jena.IvyTest" duration-ms="367" started-at="2020-11-17T14:21:27 IST" finished-at="2020-11-17T14:21:27 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="367" started-at="2020-11-17T14:21:27 IST" finished-at="2020-11-17T14:21:27 IST">
+      <class name="jena.IvyTest">
+        <test-method status="PASS" signature="createbody()[pri:0, instance:jena.IvyTest@5442a311]" name="createbody" duration-ms="322" started-at="2020-11-17T14:21:27 IST" finished-at="2020-11-17T14:21:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createbody -->
+      </class> <!-- jena.IvyTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- jena.IvyTest -->
+</testng-results>
